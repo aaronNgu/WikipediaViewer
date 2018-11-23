@@ -1,0 +1,59 @@
+html, body{
+  height:100%;
+}
+#main{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+   height:100%;
+ }
+h1{
+  order:0;
+  margin-bottom: 20px;
+  margin-top:10px;
+}
+#get-article{
+  order: 1;
+  display:flex;
+}
+#output{
+  order: 2;
+  text-align: left;
+  position: relative;
+  width: 700px;
+  display:table;
+}
+#rando{
+  border: solid;
+  background-color: white;
+}
+#rando:hover,#submit:hover{
+  background-color:#FFFAFA
+}
+#submit{
+  border:solid;
+  background-color:white;
+}
+.output-div{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3%;
+}
+.output-div:hover{
+    background-color: #FFEFD5;
+}
+.output-anchor{
+  color: black;
+  text-decoration: none;
+}
+.output-anchor:hover, .output-anchor:active, .output-anchor:visited {
+  text-decoration: none;
+}
+#or{
+  margin-left:5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  font-weight:bold;
+}
