@@ -5,7 +5,6 @@ $(document).ready(function(){
   $(document).keypress(function(e){
     if(e.which==13){inputDisplay();}
   });
-
 })
 
 function getRandom(){
